@@ -4,7 +4,7 @@ import './Chat.css'; // Import your styling
 import avatar from './profile-pic.png';
 import logo from './logo.png';
 
-const socket = io('http://35.172.178.73:3000'); // Use the correct server URL
+const socket = io('https://35.172.178.73:3000'); // Use the correct server URL
 
 function Chat() {
   const [message, setMessage] = useState('');
